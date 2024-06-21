@@ -91,4 +91,7 @@ body a:hover {
     .pcard {
         width: 75%;
     }
+    .main {
+        margin-top: 15%;
+    }
 }
