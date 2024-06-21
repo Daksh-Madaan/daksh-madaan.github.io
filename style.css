@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 45%;
+    margin: auto;
+    background: rgb(249, 249, 249);
+}
+body a {
+    color: blue;
+    transition: color 1s;
+}
+body a:hover {
+    color: #667eea;
+}
+
+.main {
+    margin-top: 20px;
+    background: #fff;
+    border: 2px dashed #667eea;
+    border-radius: 8px;
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.336);
+}
+.main h2 {
+    transition: color 1s, letter-spacing 500ms;
+}
+.main h2:hover {
+    color: #667eea;
+    letter-spacing: 3px;
+    
+}
+.header {
+    margin: 3vh;
+}
+
+.projects h3 {
+    color: black;
+    background: rgb(249, 249, 249);
+    width: 18vh;
+    padding: 3px;
+    border-bottom: 2px dashed #667eea;
+    border-radius: 15px;
+    margin: auto;
+    transition: 500ms;
+}
+.projects h3:hover{
+    border-radius: 3px;  
+}
+.pcard {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    background: rgb(249, 249, 249);
+}
+
+.pcard h4 {
+    margin: 0;
+}
+
+.aim {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+.aim h3 {
+    color: black;
+    background: rgb(249, 249, 249);
+    width: 12vh;
+    padding: 3px;
+    border-bottom: 2px dashed #667eea;
+    border-radius: 15px;
+    margin: auto;
+    transition: 500ms;
+}
+.aim h3:hover{
+    border-radius: 3px;  
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        max-width: 75%;
+    }    
+    .pcard {
+        width: 75%;
+    }
+}
