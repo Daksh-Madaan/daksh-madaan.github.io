@@ -23,7 +23,7 @@ body a:hover {
     border-radius: 8px;
     padding: 0px 0px 15px 0px;
     text-align: center;
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.336);
+    box-shadow: 1px 1px 25px 3px rgba(0, 0, 0, 0.164);
 }
 .main h2 {
     transition: color 1s, letter-spacing 500ms;
