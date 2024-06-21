@@ -40,7 +40,7 @@ body a:hover {
 .projects h3 {
     color: black;
     background: rgb(249, 249, 249);
-    width: 20vh;
+    width: 18vh;
     padding: 3px;
     border-bottom: 2px dashed #667eea;
     border-radius: 15px;
@@ -73,7 +73,7 @@ body a:hover {
 .aim h3 {
     color: black;
     background: rgb(249, 249, 249);
-    width: 15vh;
+    width: 12vh;
     padding: 3px;
     border-bottom: 2px dashed #667eea;
     border-radius: 15px;
@@ -93,5 +93,11 @@ body a:hover {
     }
     .main {
         margin-top: 15%;
+    }
+    .aim h3 {
+        width: 14vh;
+    }
+    .projects h3 {
+        width: 20vh;
     }
 }
